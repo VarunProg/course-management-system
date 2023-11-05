@@ -27,7 +27,7 @@ In this project, we use SCSS for custom styling and leverage React Bootstrap for
 
 1. Git Clone Repo in local from url using below command
    ```bash
-   git clone []
+   git clone [git@github.com:VarunProg/course-management-system.git]
    ```
 2. Go to web directory just created after git clone finishes.
    ```bash
