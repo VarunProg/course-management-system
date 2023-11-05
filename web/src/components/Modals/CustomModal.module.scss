@@ -1,0 +1,40 @@
+.modal {
+    padding: 8px;
+    .modalContainer {
+      align-items: center;
+      justify-content: space-between;
+      .modalTitle {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    .modalContent {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 14px;
+      padding: 18px 18px 18px 18px;
+      p {
+        padding: 0px;
+        margin: 0px;
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .runningLine {
+        height: 4px; 
+        background-color: #3ca694;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        animation: runningLineAnimation 30ms linear forwards;
+  
+        @keyframes runningLineAnimation {
+          to {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  

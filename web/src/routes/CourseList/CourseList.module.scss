@@ -1,0 +1,55 @@
+.main {
+  margin-top: 24px;
+}
+.card {
+  margin-bottom: 6px;
+  border: 1px solid #d9d8dc !important;
+
+  .cardImg {
+    background-repeat: no-repeat;
+    background: url(../../assets/courseImage.jpeg);
+    background-size: 100% 100%;
+  }
+
+  .cardBody {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cardButtons {
+    padding-top: 10px;
+    .editButton {
+      margin-right: 8px;
+      cursor: pointer;
+    }
+    .deleteButton {
+      cursor: pointer;
+    }
+  }
+  .cardDescription {
+  }
+}
+.button {
+  button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 6px 8px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #3ca694;
+    }
+  }
+}
+.noCard {
+  margin-top: 16px;
+  height: 200px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
