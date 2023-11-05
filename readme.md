@@ -3,7 +3,10 @@
 course-management-crud-operations project with web and server
 
 # Setup project in local enviornment
-
+1. Git Clone Repo in local from url using below command
+   ```bash
+   git clone [git@github.com:VarunProg/course-management-system.git]
+   ```
 ### Setup in local development enviornment with enviornment config
 ## open 2 terminal one for web and one for server 
 
